@@ -10,8 +10,8 @@ import UIKit
 
 extension UIView{
     func outerRound() {
-        self.layer.cornerRadius = 20
-        self.clipsToBounds = true
+        self.layer.cornerRadius = 25
+        self.layer.masksToBounds = true
     }
 }
 

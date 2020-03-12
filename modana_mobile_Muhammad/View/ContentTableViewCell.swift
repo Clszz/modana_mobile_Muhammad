@@ -33,6 +33,9 @@ extension ContentTableViewCell{
     }
     
     private func setCellInterface() {
-        outerView.outerRound()
+        self.outerView.layer.cornerRadius = 8
+        let underlineAttribute = [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue]
+        let underlineAttributedString = NSAttributedString(string: "StringWithUnderLine", attributes: underlineAttribute)
+        self.linkLabel.attributedText = underlineAttributedString
     }
 }

@@ -67,13 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				E19CAD63241A3282005BE625 /* Main.storyboard */,
+				E19CAD6B241A3284005BE625 /* Info.plist */,
 				E19CAD71241A32B4005BE625 /* Model */,
 				E19CAD72241A32C7005BE625 /* View */,
 				E19CAD73241A32D2005BE625 /* Controller */,
 				E19CAD77241A3832005BE625 /* Extension */,
 				E19CAD88241A4168005BE625 /* Service */,
 				E19CAD74241A3302005BE625 /* Utils */,
-				E19CAD6B241A3284005BE625 /* Info.plist */,
 			);
 			path = modana_mobile_Muhammad;
 			sourceTree = "<group>";
