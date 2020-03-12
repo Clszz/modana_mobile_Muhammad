@@ -1,0 +1,14 @@
+# Before Run
+
+Make sure to change "Team" on Signing and Capabilities XCode
+
+## XCode Version
+Version 11.3.1 (11C504)
+
+Swift 5.0
+
+## Reference
+[Search Bar Icon](https://www.flaticon.com/free-icon/loupe_709592?term=search&page=1&position=39)
+
+### Author
+[Muhammad Reynaldi](https://www.github.com/Clszz)

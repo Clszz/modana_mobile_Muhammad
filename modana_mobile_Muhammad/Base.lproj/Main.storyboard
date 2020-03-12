@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search by Category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zRn-ED-nhE">
-                                <rect key="frame" x="50" y="108" width="314" height="44"/>
+                                <rect key="frame" x="30" y="108" width="354" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="cCE-ay-fhr"/>
                                 </constraints>
@@ -28,7 +28,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4o-ln-uGe">
-                                <rect key="frame" x="334" y="122.5" width="15" height="15"/>
+                                <rect key="frame" x="354" y="122.5" width="15" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="15" id="g0l-aJ-7mV"/>
                                     <constraint firstAttribute="height" constant="15" id="kN8-xV-559"/>
@@ -41,10 +41,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zRn-ED-nhE" secondAttribute="trailing" constant="50" id="1c8-5f-70c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zRn-ED-nhE" secondAttribute="trailing" constant="30" id="1c8-5f-70c"/>
                             <constraint firstItem="80s-zB-m6I" firstAttribute="top" secondItem="zRn-ED-nhE" secondAttribute="bottom" constant="8" symbolic="YES" id="9ab-2k-o8e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="80s-zB-m6I" secondAttribute="bottom" id="LEE-bM-Bja"/>
-                            <constraint firstItem="zRn-ED-nhE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="MVZ-Lg-DDz"/>
+                            <constraint firstItem="zRn-ED-nhE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="MVZ-Lg-DDz"/>
                             <constraint firstItem="h4o-ln-uGe" firstAttribute="centerY" secondItem="zRn-ED-nhE" secondAttribute="centerY" id="hqB-q4-1h3"/>
                             <constraint firstItem="h4o-ln-uGe" firstAttribute="leading" secondItem="zRn-ED-nhE" secondAttribute="trailing" constant="-30" id="l4c-Du-wWx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="80s-zB-m6I" secondAttribute="trailing" id="paC-u1-7bi"/>
