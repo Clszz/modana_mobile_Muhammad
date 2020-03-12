@@ -16,6 +16,7 @@
 		E19CAD7E241A38B2005BE625 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CAD7C241A38B2005BE625 /* ContentTableViewCell.swift */; };
 		E19CAD7F241A38B2005BE625 /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19CAD7D241A38B2005BE625 /* ContentTableViewCell.xib */; };
 		E19CAD83241A3F83005BE625 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CAD82241A3F83005BE625 /* Extension.swift */; };
+		E19CAD87241A415C005BE625 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CAD86241A415C005BE625 /* APIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E19CAD7C241A38B2005BE625 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		E19CAD7D241A38B2005BE625 /* ContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
 		E19CAD82241A3F83005BE625 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E19CAD86241A415C005BE625 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				E19CAD72241A32C7005BE625 /* View */,
 				E19CAD73241A32D2005BE625 /* Controller */,
 				E19CAD77241A3832005BE625 /* Extension */,
+				E19CAD88241A4168005BE625 /* Service */,
 				E19CAD74241A3302005BE625 /* Utils */,
 				E19CAD6B241A3284005BE625 /* Info.plist */,
 			);
@@ -76,6 +79,7 @@
 		E19CAD71241A32B4005BE625 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E19CAD86241A415C005BE625 /* APIModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +118,13 @@
 				E19CAD82241A3F83005BE625 /* Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E19CAD88241A4168005BE625 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 				E19CAD5E241A3282005BE625 /* AppDelegate.swift in Sources */,
 				E19CAD60241A3282005BE625 /* SceneDelegate.swift in Sources */,
 				E19CAD76241A334D005BE625 /* ListViewController.swift in Sources */,
+				E19CAD87241A415C005BE625 /* APIModel.swift in Sources */,
 				E19CAD7E241A38B2005BE625 /* ContentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
