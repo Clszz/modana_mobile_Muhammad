@@ -3,7 +3,7 @@
 Make sure to change "Team" on Signing and Capabilities XCode
 
 ## XCode Version
-Version 11.3.1 (11C504)
+Version 11.3.1
 
 Swift 5.0
 
